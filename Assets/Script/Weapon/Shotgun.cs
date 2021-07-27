@@ -8,6 +8,7 @@ public class Shotgun : Weapon
     private int _numberOfBullets;
     private int _minSpread = -15;
     private int _maxSparead = 15;
+
     public override void Shoot(Transform shootPoint)
     {
         _numberOfBullets = Random.Range(3, 10);
